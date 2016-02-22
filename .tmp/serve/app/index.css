@@ -1,0 +1,51 @@
+/**
+ *  Do not remove this comments bellow. It's the markers used by wiredep to inject
+ *  sass dependencies when defined in the bower.json of your dependencies
+ */
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,700,700italic,400italic);
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Slab", serif; }
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0; }
+
+.red {
+  color: #ed4343; }
+
+.welcome {
+  height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  .welcome img {
+    width: 42%; }
+  .welcome h1 {
+    text-align: center; }
+
+/**
+ *  Do not remove this comments bellow. It's the markers used by gulp-inject to inject
+ *  all your sass files automatically
+ */
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7OztHQUdHO0FBSUgsMkdBQVk7QUFLWjtFQUNFLFlBQVc7RUFDWCxhQUFhO0VBQ2IsVUFBVTtFQUNWLFdBQVc7RUFDWCxrQ0FQNkIsRUFROUI7O0FBRUQ7RUFDRSxnQkFBZ0I7RUFDaEIsaUJBQWlCO0VBQ2pCLFlBQVk7RUFDWixpQkFBaUIsRUFDbEI7O0FBRUQ7RUFDRSxlQW5CaUIsRUFvQmxCOztBQUVEO0VBRUMsY0FBYztFQUVkLHFCQUFhO0VBQWIsc0JBQWE7RUFBYixxQkFBYTtFQUFiLGNBQWE7RUFDYiwwQkFBbUI7RUFBbkIsNEJBQW1CO01BQW5CLHVCQUFtQjtVQUFuQixvQkFBbUI7RUFDbkIseUJBQXdCO0VBQXhCLGdDQUF3QjtNQUF4QixzQkFBd0I7VUFBeEIsd0JBQXdCO0VBQ3hCLDZCQUFzQjtFQUF0Qiw4QkFBc0I7RUFBdEIsK0JBQXNCO01BQXRCLDJCQUFzQjtVQUF0Qix1QkFBc0IsRUFLdEI7RUFaRDtJQVNPLFdBQVcsRUFBSTtFQVR0QjtJQVVRLG1CQUFrQixFQUFJOztBQUk5Qjs7O0dBR0ciLCJmaWxlIjoiaW5kZXguY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLyoqXG4gKiAgRG8gbm90IHJlbW92ZSB0aGlzIGNvbW1lbnRzIGJlbGxvdy4gSXQncyB0aGUgbWFya2VycyB1c2VkIGJ5IHdpcmVkZXAgdG8gaW5qZWN0XG4gKiAgc2FzcyBkZXBlbmRlbmNpZXMgd2hlbiBkZWZpbmVkIGluIHRoZSBib3dlci5qc29uIG9mIHlvdXIgZGVwZW5kZW5jaWVzXG4gKi9cbi8vIGJvd2VyOnNjc3Ncbi8vIGVuZGJvd2VyXG5cbkBpbXBvcnQgdXJsKGh0dHA6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3M/ZmFtaWx5PVJvYm90bytTbGFiOjQwMCw3MDB8Um9ib3RvOjQwMCw3MDAsNzAwaXRhbGljLDQwMGl0YWxpYyk7XG5cbiRyZWQtY29sb3I6ICNlZDQzNDM7XG4kcmVkLWZvbnQ6ICdSb2JvdG8gU2xhYicsIHNlcmlmO1xuXG5odG1sLCBib2R5IHtcbiAgd2lkdGg6MTAwJTtcbiAgaGVpZ2h0OiAxMDAlO1xuICBtYXJnaW46IDA7XG4gIHBhZGRpbmc6IDA7XG4gIGZvbnQtZmFtaWx5OiAkcmVkLWZvbnQ7XG59XG5cbi5icm93c2VoYXBweSB7XG4gIG1hcmdpbjogMC4yZW0gMDtcbiAgYmFja2dyb3VuZDogI2NjYztcbiAgY29sb3I6ICMwMDA7XG4gIHBhZGRpbmc6IDAuMmVtIDA7XG59XG5cbi5yZWQge1xuICBjb2xvcjokcmVkLWNvbG9yO1xufVxuXG4ud2VsY29tZSB7XG5cblx0aGVpZ2h0OiAxMDB2aDtcblxuXHRkaXNwbGF5OmZsZXg7XG5cdGFsaWduLWl0ZW1zOmNlbnRlcjtcblx0anVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG5cdGZsZXgtZGlyZWN0aW9uOmNvbHVtbjtcblxuXHRpbWcgeyB3aWR0aDogNDIlOyB9XG4gIGgxICB7IHRleHQtYWxpZ246Y2VudGVyOyB9XG5cbn1cblxuLyoqXG4gKiAgRG8gbm90IHJlbW92ZSB0aGlzIGNvbW1lbnRzIGJlbGxvdy4gSXQncyB0aGUgbWFya2VycyB1c2VkIGJ5IGd1bHAtaW5qZWN0IHRvIGluamVjdFxuICogIGFsbCB5b3VyIHNhc3MgZmlsZXMgYXV0b21hdGljYWxseVxuICovXG4vLyBpbmplY3RvclxuLy8gZW5kaW5qZWN0b3JcbiJdLCJzb3VyY2VSb290IjoiL3NvdXJjZS8ifQ== */
