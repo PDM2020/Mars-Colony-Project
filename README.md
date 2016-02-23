@@ -17,7 +17,7 @@ Step 3 : The project should now be installed. Start the local development server
 
 	gulp serve
 
-	//1 npm install
+	// 1 npm install
 	// 2 sudo npm install -g bower 	<-- installs bower package
 	// 3 bower install
   // 4 gulp serve 								<-- start bower sync

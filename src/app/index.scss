@@ -7,6 +7,12 @@
 
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,700,700italic,400italic);
 
+@import "encounters/encounters";
+@import "checkin/check-in";
+@import "reports/reports";
+@import "main/main";
+
+
 $red-color: #ed4343;
 $red-font: 'Roboto Slab', serif;
 

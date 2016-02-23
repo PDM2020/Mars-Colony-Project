@@ -40,6 +40,10 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
+
+<a ui-sref="check-in">Check-in Page</a> || <a ui-sref="encounters">Encounters Page</a> || <a ui-sref="reports-filed">Reports Filed Page</a> || <a ui-sref="home">Main Page</a> || <a ui-sref="reports">Reports Page</a>
+
+
     <div ui-view class="site-container"></div>
 
     <!-- build:js(src) scripts/vendor.js -->
@@ -56,7 +60,10 @@
     <!-- build:js({.tmp/serve,.tmp/partials,src}) scripts/app.js -->
     <!-- inject:js -->
     <script src="app/index.module.js"></script>
-    <script src="app/main/main.controller.js"></script>
+    <script src="app/main/MainCtrl.js"></script>
+    <script src="app/reports/ReportsCtrl.js"></script>
+    <script src="app/encounters/EncountrsCtrl.js"></script>
+    <script src="app/checkin/CheckinCtrl.js"></script>
     <script src="app/index.run.js"></script>
     <script src="app/index.route.js"></script>
     <script src="app/index.constants.js"></script>
