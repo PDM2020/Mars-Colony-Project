@@ -1,23 +1,7 @@
-## AngularJS - Seed application
+## Mars Colony v1
 
-This repository contains the basic application scaffold for **Project 4**. <br>
-It is based on the [generator-angular](https://github.com/yeoman/generator-angular)  application boilerplate.
-
-To install this project on your computer:
-
-Step 1 : Create a directory for on your computer and clone this repository:
-
-	git clone https://github.com/redacademy/angular-project.git .
-
-Step 2 : From the project's root directory, install the project dependencies:
-
-    npm install && bower install
-
-Step 3 : The project should now be installed. Start the local development server by typing:
-
-	gulp serve
-
-	// 1 npm install
-	// 2 sudo npm install -g bower 	<-- installs bower package
-	// 3 bower install
-  // 4 gulp serve 								<-- start bower sync
+- first version from Red Academy Seed Application
+- set up app folders and style sheets
+- set up controller.js files
+- set up partials for app files in scss
+- set up routing in index.route.js
