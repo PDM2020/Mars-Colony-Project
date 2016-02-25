@@ -1,5 +1,22 @@
-<div class="check-in">
 
-<h1>Check-in Page</h1>
+<h1>Check In Page</h1>
+<div class="check-in">
+<form name ="formName" class="form-wrapper" novalidate >
+  <div><input type="text" placeholder="Please Add a Name" ng-model="colonist.name" required ></div>
+  <div><input type="number" placeholder="Please Enter Your Age" ng-model="colonist.age" min=15 max=80 required ></div>
+  <div><select name="jobs"id="job" ng-model="colonist.job_id" required >
+      <option value="" >Select a Job</option>
+      <option value="{{job.id}}" ng-repeat="job in jobs">{{ job.name }}</option>
+  </select></div>
+  <div>formName is {{formName.$valid}}</div>
+    <button class="checkin-btn" ng-click="login($event)" >Check In</button>
+</form>
 
 </div>
+
+<!-- {
+"colonist" : {
+   "name" :
+  "age" :
+  "job_id" :
+} -->

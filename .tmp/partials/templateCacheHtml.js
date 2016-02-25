@@ -1,4 +1,5 @@
-angular.module("red").run(["$templateCache", function($templateCache) {$templateCache.put("app/encounters/encounters.html","<h1>encounters page</h1>");
-$templateCache.put("app/main/main.html","<div class=\"main-page\"><h1>{{ description }}</h1></div>");
-$templateCache.put("app/reports/reports-filed.html","<div class=\"main-page\"><h1>{{ description }}</h1></div>");
-$templateCache.put("app/reports/reports.html","<div class=\"main-page\"><h1>{{ description }}</h1></div>");}]);
+angular.module("red").run(["$templateCache", function($templateCache) {$templateCache.put("app/checkin/check-in.html","<h1>Check In Page</h1><div class=\"check-in\"><form name=\"formName\" class=\"form-wrapper\" novalidate=\"\"><div><input type=\"text\" placeholder=\"Please Add a Name\" ng-model=\"colonist.name\" required=\"\"></div><div><input type=\"number\" placeholder=\"Please Enter Your Age\" ng-model=\"colonist.age\" min=\"15\" max=\"80\" required=\"\"></div><div><select name=\"jobs\" id=\"job\" ng-model=\"colonist.job_id\" required=\"\"><option value=\"\">Select a Job</option><option value=\"{{job.id}}\" ng-repeat=\"job in jobs\">{{ job.name }}</option></select></div><div>formName is {{formName.$valid}}</div><button class=\"checkin-btn\" ng-click=\"login($event)\">Check In</button></form></div>");
+$templateCache.put("app/encounters/encounters.html","<h1>Encounters Page</h1><div class=\"encounters\"></div>");
+$templateCache.put("app/main/main.html","<div class=\"wrapper\"><h1 class=\"allcaps\">Mars Colony 2</h1><div class=\"btn-wrapper\"><button class=\"dot\"></button><div class=\"pulse\" ui-sref=\"check-in\"></div></div></div><div class=\"footer\"><h3 class=\"allcaps\">Tap Circle To enter</h3></div>");
+$templateCache.put("app/reports/reports-filed.html","<h1>Reports Filed</h1><div class=\"reports-filed\"></div>");
+$templateCache.put("app/reports/reports.html","<h1>Reports</h1><div class=\"reports\"></div>");}]);

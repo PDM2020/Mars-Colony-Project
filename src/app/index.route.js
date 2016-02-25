@@ -39,7 +39,7 @@
         url:'/reports-filed',
         templateUrl:'app/reports/reports-filed.html',
         controller: 'ReportsCtrl'
-        });
+      });
 
 
     $urlRouterProvider.otherwise('/');

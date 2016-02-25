@@ -41,7 +41,14 @@
     <![endif]-->
 
 
-<a ui-sref="check-in">Check-in Page</a> || <a ui-sref="encounters">Encounters Page</a> || <a ui-sref="reports-filed">Reports Filed Page</a> || <a ui-sref="home">Main Page</a> || <a ui-sref="reports">Reports Page</a>
+<div class="temp-nav">
+<a ui-sref="home">Main Page</a> |
+<a ui-sref="check-in">Check-in Page</a> |
+<a ui-sref="encounters">Encounters Page</a> |
+<a ui-sref="reports-filed">Reports Filed Page</a> |
+<a ui-sref="reports">Reports Page</a>
+</div>
+
 
 
     <div ui-view class="site-container"></div>
@@ -60,8 +67,8 @@
     <!-- build:js({.tmp/serve,.tmp/partials,src}) scripts/app.js -->
     <!-- inject:js -->
     <script src="app/index.module.js"></script>
-    <script src="app/main/MainCtrl.js"></script>
     <script src="app/reports/ReportsCtrl.js"></script>
+    <script src="app/main/MainCtrl.js"></script>
     <script src="app/encounters/EncountrsCtrl.js"></script>
     <script src="app/checkin/CheckinCtrl.js"></script>
     <script src="app/index.run.js"></script>

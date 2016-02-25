@@ -1,0 +1,54 @@
+
+input, select, option, button {
+
+  outline:none;
+  width: 80%;
+
+  padding:.25rem;
+  font-size:1rem;
+}
+
+ div input, div select, div option {
+  width: 60vw;
+  line-height: 2;
+  background:transparent;
+  border: none;
+  border-bottom: 5px solid #fff;
+  color: white;
+}
+
+select {
+  height:60px;
+  line-height:60px;
+}
+
+h1 {
+  text-shadow: 2px 2px 4px rgba(100, 100, 100, 0.8);
+}
+
+.check-in {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 80vw;
+  height:40vh;
+  margin:auto;
+}
+
+.form-wrapper {
+  padding-top:2rem;
+  display:flex;
+  align-items:center;
+  justify-content:top;
+  flex-direction:column;
+  flex-wrap: wrap;
+  margin:auto;
+}
+
+.ng-invalid.ng-dirty {
+  padding:2px;
+  border-color: red;
+}
+
+.ng-valid.ng-dirty {
+  padding:2px;
+  border-color: green;
+}

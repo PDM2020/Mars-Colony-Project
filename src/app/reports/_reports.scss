@@ -1,13 +1,8 @@
 
 
-.reports {
-  background-color: lightgrey;
-  width:80vw;
-  height:80vh;
-}
-
-.reports-filed {
-  background-color: blue;
-  width:80vw;
-  height:80vh;
+.reports, .reports-filed {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 80vw;
+  height:40vh;
+  margin:auto;
 }
